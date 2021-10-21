@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: coral;
+    
+}
+header nav {
+    height: 100px;
+    background-color: #292c38;
+    font-family: 'Montserrat', sans-serif;
+}
+header nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-weight: 200;
+}
+header nav ul li  a {
+    color: #fff;
+}
+header nav ul li .singup {
+    padding: 10px 20px;
+    background-color: #2c9986;
+    border-radius: 5px;
+}
+header nav .logo {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+header nav .logo img {
+    width: 41px;
+
+}
+header nav .logo span {
+    color: #fff;
+    margin-left: 5px;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+/* 
+font-family: 'Varela Round', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+.content-header {
+    height: calc(100vh - 100px);
+    background-color: #363b48;
+    color: #fff;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+header .content-header .content {
+    position: relative;
+    top: 140px;
+}
+header .content-header .browser-img {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+}
+header .content-header a {
+    color: #fff;
+}
+header .content-header .browser-img img {
+    width: 100%;
+}
+header .content-header .content h1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+header .content-header .content p {
+    margin:  15px 0 30px 0 ;
+    font-family: 'Varela Round', sans-serif;
+    color: #a3a8b6;
+    font-weight: 200;
+}
+header .content-header .content a {
+    padding: 15px 30px ;
+    background-color: #6d7280;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
+header .content-header .content a:nth-of-type(1){
+    background-color: #2c9986;
+}
+
+main .first-section {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+main .first-section .title {
+    text-align: center;
+
+}
+main .first-section .title h1  {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: 300;
+}
+main .first-section .title p {
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 15px;
+}
+main .first-section .responsive-content {
+    display:  flex;
+    height: 571px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main .first-section .responsive-content .support {
+    width: 420px;
+}
+main .first-section .responsive-content .support p {
+    font-family: 'Varela Round', sans-serif;
+    color: #848999;
+    
+}
+.responsive-content .support  i {
+    font-size: 36px;
+    color: #c4c9d2;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.responsive-content .support h2 {
+    color: #333;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.responsive-content .support .browsers {
+    margin-bottom: 30px;
+}
+main .second-section {
+    height: 100vh;
+    background-color: #eff1f4;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    
+}
+main .second-section .beautiful-parent{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main .second-section .title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+main .second-section h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+main .second-section  p {
+    font-family: 'Varela Round', sans-serif;
+}
+main .second-section .grid-photo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+main .second-section .grid-photo  .grid-item {
+    width: 310px;
+}
+main .second-section .grid-photo  .grid-item h4 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 26px;
+    font-weight: 300;
+    color: #333;
+}
+
+main .second-section .backgroun-item {
+    background-color: #fff;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 25px auto;
+}
+main .second-section   .grid-item p {
+    color: #848999;
+    margin: 10px auto 0 auto;
+    width: 280px;
+}
+main .second-section .backgroun-item span {
+    display: inline-block;
+    background-color: #363b48;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    margin: 25px 0;
+}
+main .second-section .backgroun-item img {
+    width: 70%;
+}
+main .theerd-section{
+    height: calc(100vh - 250px);
+    position: relative;
+    
+}
+main .theerd-section .parent-feature {
+    width: 951px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+main .theerd-section .parent-feature .title {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+main .theerd-section .parent-feature .title h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 36px;
+    margin: 10px 0;
+}
+main .theerd-section .parent-feature .title p {
+    font-family: 'Varela Round', sans-serif;
+    color: #848999;
+}
+main .theerd-section .parent-feature .layouts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+main .theerd-section .parent-feature .layouts .layout {
+    width: 30%;
+    text-align: center;
+   
+    margin: 20px 0;
+}
+main .theerd-section .parent-feature .layouts .layout .layout-icon {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #eff1f4;
+    margin-bottom: 10px;
+}
+main .theerd-section .parent-feature .layouts .layout .layout-icon img {
+    width: 25px;
+    margin:13px 0 ;
+}
+main .theerd-section .parent-feature .layouts .layout h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+main .theerd-section .parent-feature .layouts .layout p {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    color: #848999;
+    margin-bottom: 10px;
+    
+}
+footer {
+    height: 250px;
+    background-color: #363b48;
+    
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+footer .copyright {
+    font-size: 18px;
+    color:#848999 ;
+}
+footer .social-media a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #848999;
+    margin-left: 10px;
+    
+}
+footer .social-media a i {
+    font-size: 24px;
+    color: #eff1f4;
+    line-height: 45px;
+   margin-left: 11px;
+}
+footer .social-media .fb i{
+    margin-left: 14.5px;
+}
