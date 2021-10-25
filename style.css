@@ -137,6 +137,9 @@ main .first-section .responsive-content {
     top: 50%;
     transform: translateY(-50%);
 }
+main .first-section .responsive-content .responsive-img {
+    width: 50%;
+}
 main .first-section .responsive-content .support {
     width: 420px;
 }
@@ -235,7 +238,8 @@ main .theerd-section .parent-feature {
     width: 951px;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left:50%;
+    transform: translate(-50% , -50%);
     
 }
 main .theerd-section .parent-feature .title {
